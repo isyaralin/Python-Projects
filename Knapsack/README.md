@@ -22,10 +22,9 @@ The algorithm is implemented in Python.
 
 ---
 
-## Steps to Run
+## Prerequisites
+Before running the script, you must install the required dependencies to generate the fitness graphs. 
 
-All `.txt` benchmark files must be placed in the same directory as `Knapsack.py`.
-
-Run the script in your terminal:
+Run the following command in your terminal:
 ```bash
-python3 Knapsack.py
+pip install matplotlib
