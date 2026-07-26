@@ -1,9 +1,7 @@
 # Ant Colony Optimization (ACO) Solver
 
 ## Description of the Algorithm
-I mainly used the implementation of ACO we had in the tutorials. I kept the parameters and the structure of the implementation as similar as possible and modified/adapted the functions and the logic according to the assignment requirements.
-
----
+I mainly used the implementation of ACO algorithm. I kept the parameters and the structure of the implementation as similar as possible and modified/adapted the functions and the logic according to the assignment requirements.
 
 ## Algorithmic Adaptations
 
@@ -19,11 +17,14 @@ The fitness score is now purely based on the total travel distance.
 ### Pheromone Updates
 I adjusted the logic of `update_pheromone` to represent that the undirected edges get equal reinforcement according to the type.
 
----
 
 ## Prerequisites
-Before running the script, you must install the required dependencies to run the math and generate the graphs.
+Before running the script, you must ensure all `.xml' files in the `xml_files/` directory are places in the same directory as the ACO.py file and you must install the required dependencies to run the math and generate the graphs.
 
 Run the following command in your terminal:
 ```bash
-pip install numpy matplotlib
+pip install numpy matplotlib```
+
+## Outcomes 
+After running the script, the algorithm will produce 4 `.png` files that show the convergence.
+(The `png` files can be found inside `convergence_png/` directory)
